@@ -3,21 +3,14 @@ title: "ADDC实验--VXLAN Fabric"
 date: 2026-09-07
 draft: false
 
-description: "在如上图所示的八个接口配置好ip地址，保证spine-leaf之间基础的直连链路可以相互ping通 - 创建loopback"
-
-summary: "在如上图所示的八个接口配置好ip地址，保证spine-leaf之间基础的直连链路可以相互ping通 - 创建loopback"
-
 tags:
   - VXLAN
   - EVPN
-  - ADDC
 
 categories:
   - 数据中心
 
 ---
-
-# ADDC实验--VXLAN Fabric
 
 ### 第一步：直连链路连通
 
