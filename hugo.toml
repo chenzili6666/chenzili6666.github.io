@@ -1,5 +1,5 @@
-baseURL = "https://example.org/"
-languageCode = "zh-cn"
+baseURL = "https://chenzili6666.github.io/"
+locale = "zh-CN"
 title = "Chen's Network Notes"
 theme = "PaperMod"
 
@@ -8,7 +8,7 @@ enableRobotsTXT = true
 [params]
     env = "production"
     title = "Chen's Network Notes"
-    description = "记录网络技术、实验、故障排查与学习思考"
+    description = "记录网络技术、数据中心、自动化以及工程实践中的学习与思考"
     author = "Chen"
 
     ShowReadingTime = true
@@ -21,6 +21,10 @@ enableRobotsTXT = true
     Title = "你好 👋"
     Content = "这里记录我对网络技术、数据中心、自动化以及工程实践的学习与思考。"
 
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/chenzili6666"
+
 [[menu.main]]
     identifier = "posts"
     name = "文章"
@@ -32,3 +36,9 @@ enableRobotsTXT = true
     name = "标签"
     url = "/tags/"
     weight = 20
+
+[[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 30
