@@ -3,9 +3,9 @@ title: "ADDC实验--VXLAN Fabric"
 date: 2026-09-07
 draft: false
 
-description: "- ![image](image-20260906084632-j41l66j.png) - 在如上图所示的八个接口配置好ip地址，保证spine-leaf之间基础的直连链路可以相互ping通"
+description: "在如上图所示的八个接口配置好ip地址，保证spine-leaf之间基础的直连链路可以相互ping通 - 创建loopback"
 
-summary: "- ![image](image-20260906084632-j41l66j.png) - 在如上图所示的八个接口配置好ip地址，保证spine-leaf之间基础的直连链路可以相互ping通"
+summary: "在如上图所示的八个接口配置好ip地址，保证spine-leaf之间基础的直连链路可以相互ping通 - 创建loopback"
 
 tags:
   - VXLAN
@@ -19,8 +19,9 @@ categories:
 
 ### 第一步：直连链路连通
 
-- ![image](image-20260906084632-j41l66j.png)
-- 在如上图所示的八个接口配置好ip地址，保证spine-leaf之间基础的直连链路可以相互ping通
+![image](image-20260906084632-j41l66j.png)
+
+在如上图所示的八个接口配置好ip地址，保证spine-leaf之间基础的直连链路可以相互ping通
 
 ### 第二步：配置OSPF（Underlay承载网络）
 
