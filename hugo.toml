@@ -1,0 +1,34 @@
+baseURL = "https://example.org/"
+languageCode = "zh-cn"
+title = "Chen's Network Notes"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+
+[params]
+    env = "production"
+    title = "Chen's Network Notes"
+    description = "记录网络技术、实验、故障排查与学习思考"
+    author = "Chen"
+
+    ShowReadingTime = true
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = true
+    ShowToc = true
+
+[params.homeInfoParams]
+    Title = "你好 👋"
+    Content = "这里记录我对网络技术、数据中心、自动化以及工程实践的学习与思考。"
+
+[[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 20
